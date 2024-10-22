@@ -2,20 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background-color: rgb(209 213 219);
   font-family: Arial, Helvetica, sans-serif;
+}
+.rmdp-input{
+  width: 120%;
+  height: 2.5rem !important;
+text-align: center;
+font-size: 1.2rem;
+font-weight: 600;
+background: white;
+border: 1px solid gray !important;
+line-height: 1rem !important;
+padding: .5rem 1rem !important;
+cursor: pointer;
+color: #434242 !important;
 }
